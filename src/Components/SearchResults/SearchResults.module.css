@@ -1,0 +1,38 @@
+
+
+.resultsContainer {
+display: flex;
+flex-direction: column;
+width: 50vw;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+
+.resultsContainer img {
+    width: 100px;
+    aspect-ratio: 1;
+    
+}
+
+.resultsCard {
+    padding: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    color: white;
+    cursor: pointer;
+}
+.resultsCard:hover {
+    background-color: hsl(308, 90%, 72%);
+    
+}
+
+.resultsCard h3 {
+    color: white;
+    justify-content: end;
+}
