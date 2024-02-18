@@ -28,7 +28,7 @@ function Header( {handleToken} ) {
     setToken(token);
     handleToken(token);
 
-  }, [token]);
+  }, [handleToken]);
 
   const logout = () => {
     setToken("");
@@ -48,7 +48,7 @@ function Header( {handleToken} ) {
             Login
           </a>
         ) : 
-          <button className={stlyes.logout} onClick={logout}>Logout</button> } 
+          <button className={stlyes.logoutButton} onClick={logout}>Logout</button> } 
 
       </div>
       

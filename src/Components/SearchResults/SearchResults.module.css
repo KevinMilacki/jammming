@@ -1,6 +1,12 @@
 
 
-.resultsContainer {
+.displayContainer {
+    display: flex;
+}
+
+
+
+.artistContainer {
 display: flex;
 flex-direction: column;
 width: 50vw;
@@ -8,13 +14,13 @@ flex-wrap: wrap;
 margin-top: 10px;
 }
 
-.resultsContainer img {
+.artistContainer img {
     width: 100px;
     aspect-ratio: 1;
     
 }
 
-.resultsCard {
+.artistCard {
     padding: 10px;
     background-color: blueviolet;
     margin: 10px;
@@ -27,12 +33,24 @@ margin-top: 10px;
     color: white;
     cursor: pointer;
 }
-.resultsCard:hover {
+.artistCard:hover {
     background-color: hsl(308, 90%, 72%);
     
 }
 
-.resultsCard h3 {
+.artistCard h3 {
     color: white;
     justify-content: end;
+}
+
+.albumsContainer {
+    width: 50vw;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px 125px;
+}
+
+.albumsContainer > p {
+    font-size: .5rem;
 }

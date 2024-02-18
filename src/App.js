@@ -1,10 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import axios from "axios";
 import "./App.css";
 import SearchBar from "./Components/SearchBar/SearchBar";
 import Header from "./Components/Header/Header";
-import SearchResults from "./Components/SearchResults/SearchResults";
 
 function App() {
   const [searchData, setSearchData] = useState([]);

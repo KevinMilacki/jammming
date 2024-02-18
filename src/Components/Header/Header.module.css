@@ -33,20 +33,23 @@ a {
 
 a:hover {
     background-color: hsl(303, 29%, 61%);
-}
+} 
 
 span {
     color:hsl(302, 98%, 76%);
 }
 
-.logout {
+.logoutButton {
     margin-bottom: 17px;
-    padding: 15px 60px;
+    position: relative;
+    padding: 15px 48px;
+    top: 10px;
     border-radius: 10px;
     background-color: hsl(300, 69%, 86%);
     text-decoration: none;
+    text-align: center;
     font-size: 1.25rem;
     color:aliceblue;
     font-family: "Salsa", cursive;
-    box-shadow: 0 0 5px 2px hsl(300, 91%, 18%);
+    /* box-shadow: 0 0 5px 2px hsl(300, 91%, 18%); */
 }
